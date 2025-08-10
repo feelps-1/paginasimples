@@ -1,0 +1,13 @@
+{
+  "name": "synthetic-monitor",
+  "version": "1.0.0",
+  "main": "synthetic-monitor.js",
+  "type": "module",
+  "scripts": {
+    "start": "node synthetic-monitor.js"
+  },
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.0",
+    "dotenv": "^16.0.0"
+  }
+}
